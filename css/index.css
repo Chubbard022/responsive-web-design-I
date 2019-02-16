@@ -123,8 +123,15 @@ div.container-items div.top-body section.top-body-items{
 }
 /* ---------------------------header bottom--------------------------------------- */
 div.container-items div.bottom-body{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     border-bottom: 2px solid black;
 }
-/* ---------------------------header bottom--------------------------------------- */
+/* ---------------------------contact--------------------------------------- */
+
+
+/* ---------------------------footer--------------------------------------- */
+footer{
+    display: flex;
+    justify-content: center; 
+}
