@@ -64,12 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 /*--------------------------------------------------------------------------------- */
 body{
-    border: 5px solid purple;
+    /* border: 5px solid purple; */
     padding: 30px;  
     margin: 0 auto;
 }
 div.container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 20px;
 }
 div.container-items{
@@ -95,6 +95,8 @@ div.container-items header section.header-items{
 div.container-items header div.header-section{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+
     border-bottom: 2px solid black;
 }
 div.container-items header section.header-items h1{
@@ -126,6 +128,7 @@ div.container-items div.bottom-body{
     /* border: 1px solid orange; */
     display: flex;
     border-bottom: 2px solid black;
+    padding-bottom: 10px;
 }
 /* ---------------------------contact--------------------------------------- */
 
@@ -135,3 +138,10 @@ footer{
     display: flex;
     justify-content: center; 
 }
+
+
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */
+/* ---------------------------Tablet--------------------------------------- */
+/* ------------------------------------------------------------------------- */
