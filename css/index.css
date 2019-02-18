@@ -71,6 +71,7 @@ body{
 div.container{
     /* border: 2px solid red; */
     padding: 20px;
+    width: 100%;
 }
 div.container-items{
     border: 1px solid blue;
@@ -86,6 +87,30 @@ div.container-items section.top-page nav a{
     text-decoration: none;
     color:grey;
     margin: 0 35px 0 35px;
+}
+div.container-items section.top-page img.logo{
+    /* text-align: right; */
+}
+@media(max-width: 800px){
+    div.container-items section.top-page{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        border:1px solid red;
+        }
+        div.container-items section.top-page img.logo{
+            border:2px solid purple;
+            display:block;
+            width:40%;
+
+        }
+        div.container-items section.top-page nav{
+            display:flex;
+            justify-content: space-around;
+            text-decoration: none;
+            color:grey;
+            border:1px solid orange;
+        }
 }
 /* ---------------------------header---------------------------------------------- */
 div.container-items header section.header-items{
@@ -111,18 +136,26 @@ div.container-items header section.header-items button:hover{
     color: white;
     font-size: 35px;
 }
+
+@media(max-width:800px){
+    div.container-items header div.header-section img{
+        display:none;
+    }
+}
 /* ---------------------------header-top and img------------------------------------- */
 div.container-items div.top-body{
     /* border: 1px solid orange; */
     display: flex;
 }
 div.container-items div.middle-img{
-    display: flex;
-    justify-content: center;
-    border: 5px solid red;
+   width:90%;
+   border:4px solid red;
 }
 div.container-items div.top-body section.top-body-items{
     /* border: 1px solid black; */
+}
+@media(max-width:800px){
+
 }
 /* ---------------------------header bottom--------------------------------------- */
 div.container-items div.bottom-body{
