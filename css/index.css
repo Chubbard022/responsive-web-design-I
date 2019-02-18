@@ -75,8 +75,8 @@ div.container{
 }
 div.container-items{
     border: 1px solid blue;
-    margin: 20px;
-    padding:20px;
+    margin: 10px;
+    padding:10px;
 }
 /* ---------------------------Nav Bar---------------------------------------------- */
 div.container-items section.top-page{
@@ -197,7 +197,14 @@ div.container-items div.top-body section.top-body-items{
 @media(max-width:800px){
     div.container-items img.middle-img{
         width:90%;
-        border:4px solid red;
+    }
+}
+@media(max-width: 500px){
+    div.container-items div.top-body{
+        flex-direction: column;
+    }
+    div.container-items div.top-body section.top-body-items{
+        margin: 10px;
     }
 }
 /* ---------------------------header bottom--------------------------------------- */
