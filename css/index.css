@@ -211,8 +211,19 @@ div.container-items div.top-body section.top-body-items{
 div.container-items div.bottom-body{
     /* border: 1px solid orange; */
     display: flex;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     padding-bottom: 10px;
+}
+@media(max-width: 500px){
+    div.container-items div.bottom-body{
+        flex-direction: column;
+    }
+    div.container-items div.bottom-body section.bottom-body-middle {
+        margin-top: 10px;
+    }
+    div.container-items div.bottom-body section.bottom-body-left {
+        margin-top: 10px;
+    }
 }
 /* ---------------------------contact--------------------------------------- */
 
