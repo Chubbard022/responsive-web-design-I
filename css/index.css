@@ -116,9 +116,10 @@ div.container-items div.top-body{
     /* border: 1px solid orange; */
     display: flex;
 }
-div.container-item div.middle-img{
+div.container-items div.middle-img{
     display: flex;
     justify-content: center;
+    border: 5px solid red;
 }
 div.container-items div.top-body section.top-body-items{
     /* border: 1px solid black; */
